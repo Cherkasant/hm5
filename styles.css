@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+
+  font-family: 'Koulen', cursive;
+}
+.header {
+  width: 100%;
+  height: 80px;
+
+  text-align: center;
+
+  background: url('/teachmeskills/hm5/img/header-image.png') center/cover
+    no-repeat;
+}
+.header__title {
+  margin: 0 auto;
+  line-height: 80px;
+  color: rgb(40, 40, 94);
+}
+
+.main__content {
+  width: 100%;
+  height: 360px;
+  display: flex;
+
+  margin: 0 auto;
+  justify-content: space-around;
+  background: url('/teachmeskills/hm5/img/white-background.jpg') center/cover
+    no-repeat;
+}
+.main__content__description {
+  width: 400px;
+  height: 100px;
+  margin: 15px;
+}
+.main__content__logo {
+  width: 360px;
+  height: 240px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.main__content__logo_element1 {
+  background: url('/teachmeskills/hm5/img/html-320x240.jpg') center/cover
+    no-repeat;
+}
+.main__content__logo_element2 {
+  background: url('/teachmeskills/hm5/img/css-320x240.jpg') center/cover
+    no-repeat;
+}
+.info__title {
+  text-align: center;
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 30px;
+}
+.info {
+  margin: 0;
+  width: 100%;
+  max-height: 900px;
+  background: url('/teachmeskills/hm5/img/blue-background.jpg') center/cover;
+}
+.info__block {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.info__block__content_summary {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 25px;
+}
+.info__title {
+  margin: 0px 0px 10px 0px;
+}
+.btn {
+  border-radius: 4px;
+  border: none;
+  background-color: #3775dd;
+  cursor: pointer;
+  box-shadow: 0 2px #21487f;
+}
+.btn:hover {
+  background-color: #002fed;
+}
+.btn:active {
+  color: red;
+}
+.info__photo {
+  width: 100%;
+  height: 600px;
+}
+.info__photo__container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 15px;
+}
+.info__photo__container__photo {
+  width: 360px;
+  height: 240px;
+  border-radius: 10px;
+}
+.info__photo__container__photo_number1 {
+  background: url('/teachmeskills/hm5/img/html1.jpg') center/cover no-repeat;
+}
+.info__photo__container__photo_number2 {
+  background: url('/teachmeskills/hm5/img/html2.jpg') center/cover no-repeat;
+}
+.info__photo__container__photo_number3 {
+  background: url('/teachmeskills/hm5/img/html3.jpg') center/cover no-repeat;
+}
+.info__photo__container__photo_number4 {
+  background: url('/teachmeskills/hm5/img/html4.jpg') center/cover no-repeat;
+}
+.info__photo__container__photo_number5 {
+  background: url('/teachmeskills/hm5/img/html5.jpg') center/cover no-repeat;
+}
+.footer {
+  width: 100%;
+  height: 250px;
+  background: url('/teachmeskills/hm5/img/footer-image.png') center/cover
+    no-repeat;
+}
+.input {
+  width: 200px;
+  height: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: end;
+}
+.footer__form__contact {
+  width: 220px;
+}
+.footer__form__contact_title {
+  text-align: center;
+  margin: 10px;
+}
+.footer__form__contact_subtitle {
+  text-align: center;
+  margin: 0;
+}
+.footer__form__contact_social {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__form__contact_email {
+  display: inline-flex;
+  column-gap: 15px;
+}
+.footer__form__contact_email-img {
+  height: 24px;
+  align-self: center;
+}
