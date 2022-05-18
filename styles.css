@@ -9,8 +9,7 @@ body {
   max-width: 100%;
   height: 80px;
   text-align: center;
-  background: url('/teachmeskills/hm5/img/header-image.png') center/cover
-    no-repeat;
+  background: url('./img/header-image.png') center/cover no-repeat;
 }
 .header__title {
   width: 100%;
@@ -27,8 +26,7 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   row-gap: 80px;
-  background: url('/teachmeskills/hm5/img/white-background.jpg') center/cover
-    no-repeat;
+  background: url('./img/white-background.jpg') center/cover no-repeat;
 }
 .main__content__description {
   width: 200px;
@@ -36,7 +34,6 @@ body {
   max-height: fit-content;
   margin: 15px;
   padding: 0;
-  flex-shrink: 1;
 }
 .main__content__logo {
   width: 360px;
@@ -45,15 +42,12 @@ body {
   height: 240px;
   border-radius: 50%;
   margin-top: 10px;
-  flex-shrink: 1;
 }
 .main__content__logo_element1 {
-  background: url('/teachmeskills/hm5/img/html-320x240.jpg') center/cover
-    no-repeat;
+  background: url('./img/html-320x240.jpg') center/cover no-repeat;
 }
 .main__content__logo_element2 {
-  background: url('/teachmeskills/hm5/img/css-320x240.jpg') center/cover
-    no-repeat;
+  background: url('./img/css-320x240.jpg') center/cover no-repeat;
 }
 
 .info {
@@ -64,7 +58,7 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  background: url('/teachmeskills/hm5/img/blue-background.jpg') center/cover;
+  background: url('./img/blue-background.jpg') center/cover ;
 }
 .info__block {
   display: flex;
@@ -123,19 +117,19 @@ body {
   margin: 10px;
 }
 .info__photo__container__photo_number1 {
-  background: url('/teachmeskills/hm5/img/html1.jpg') center/cover no-repeat;
+  background: url('./img/html1.jpg') center/cover no-repeat;
 }
 .info__photo__container__photo_number2 {
-  background: url('/teachmeskills/hm5/img/html2.jpg') center/cover no-repeat;
+  background: url('./img/html2.jpg') center/cover no-repeat;
 }
 .info__photo__container__photo_number3 {
-  background: url('/teachmeskills/hm5/img/html3.jpg') center/cover no-repeat;
+  background: url('./img/html3.jpg') center/cover no-repeat;
 }
 .info__photo__container__photo_number4 {
-  background: url('/teachmeskills/hm5/img/html4.jpg') center/cover no-repeat;
+  background: url('./img/html4.jpg') center/cover no-repeat;
 }
 .info__photo__container__photo_number5 {
-  background: url('/teachmeskills/hm5/img/html5.jpg') center/cover no-repeat;
+  background: url('./img/html5.jpg') center/cover no-repeat;
 }
 .input {
   width: 200px;
@@ -148,8 +142,7 @@ body {
   min-height: 250px;
   max-height: fit-content;
   flex-wrap: wrap;
-  background: url('/teachmeskills/hm5/img/footer-image.png') center/cover
-    no-repeat;
+  background: url('./img/footer-image.png') center/cover no-repeat;
 }
 .footer__form__contact {
   width: 220px;
