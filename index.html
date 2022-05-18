@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka+One&family=Koulen&family=Roboto&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Flexbox-HM5</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">HTML,CSS-guide</h1>
+    </header>
+
+    <main>
+      <div class="main__content">
+        <div class="main__content__logo main__content__logo_element1"></div>
+        <div class="main__content__description">
+          HTML (HyperText Markup Language — «язык гипертекстовой разметки») —
+          самый базовый строительный блок Веба. Он определяет содержание и
+          структуру веб-контента.Другие технологии, помимо HTML, обычно
+          используются для описания внешнего вида/представления (CSS) или
+          функциональности/поведения (JavaScript) веб-страницы.
+        </div>
+
+        <div class="main__content__logo main__content__logo_element2"></div>
+        <div class="main__content__description">
+          Cascading Style Sheets (CSS) — это язык иерархических правил (таблиц
+          стилей (en-US)), используемый для представления внешнего вида
+          документа, написанного на HTML или XML (en-US) (включая различные
+          языки XML, такие как SVG (en-US) и XHTML).CSS описывает, каким образом
+          элемент должен отображаться на экране, на бумаге, голосом или с
+          использованием других медиа средств.
+        </div>
+      </div>
+
+      <section class="info">
+        <div class="info__title"><h2>Documentation</h2></div>
+        <div class="info__block">
+          <details class="info__block__content">
+            <summary class="info__block__content_summary">
+              HTML-шпаргалки
+            </summary>
+            <ul>
+              <li>
+                <a href="https://htmlbase.ru/" target="_blank" class="btn"
+                  >Справочник HTML</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/en-US/"
+                  target="_blank"
+                  class="btn"
+                  >MDN</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.markdownguide.org/cheat-sheet/"
+                  target="_blank"
+                  class="btn"
+                  >гайд по Markdown</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://ru.bem.info/methodology/quick-start/"
+                  target="_blank"
+                  class="btn"
+                  >Документация по БЭМ</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://loftschool.com/blog/posts/74-html-vidy-tegov/"
+                  target="_blank"
+                  class="btn"
+                  >Тэги HTML</a
+                >
+              </li>
+            </ul>
+          </details>
+          <details class="info__block__content">
+            <summary class="info__block__content_summary">
+              CSS-шпаргалки
+            </summary>
+            <ul>
+              <li>
+                <a
+                  href="https://developer.mozilla.org/ru/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance"
+                  target="_blank"
+                  class="btn"
+                  >Каскадность CSS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://puzzleweb.ru/css/18_inherit_cascade.php"
+                  target="_blank"
+                  class="btn"
+                  >Наследование CSS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://bureau.ru/soviet/20200723/"
+                  target="_blank"
+                  class="btn"
+                  >Специфичность CSS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://html-plus.in.ua/css-styles-for-chekboxes/"
+                  target="_blank"
+                  class="btn"
+                  >Возможности CSS</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+                  target="_blank"
+                  class="btn"
+                  >Flexbox-гайд</a
+                >
+              </li>
+            </ul>
+          </details>
+        </div>
+
+        <h2 class="info__title">Evolution of HTML</h2>
+        <div class="info__photo__container">
+          <div
+            class="info__photo__container__photo info__photo__container__photo_number1"
+          ></div>
+          <div
+            class="info__photo__container__photo info__photo__container__photo_number2"
+          ></div>
+          <div
+            class="info__photo__container__photo info__photo__container__photo_number3"
+          >
+            <h3>HTML3.0</h3>
+          </div>
+          <div
+            class="info__photo__container__photo info__photo__container__photo_number4"
+          ></div>
+          <div
+            class="info__photo__container__photo info__photo__container__photo_number5"
+          ></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer__form">
+          <form
+            action="mailto:antnchrks@gmail.com"
+            method="post"
+            target="_blank"
+            enctype="text/plain"
+          >
+            <label for="text">Message:</label>
+            <input
+              type="text"
+              id="text"
+              placeholder="enter message:"
+              class="input"
+            />
+            <input type="submit" value="Send" />
+            <input type="reset" value="Clear " />
+          </form>
+        </div>
+        <div class="footer__form__contact">
+          <h3 class="footer__form__contact_title">Contact</h3>
+          <div class="footer__form__contact_email">
+            <img
+              src="/teachmeskills/hm5/img/email-icon.png"
+              alt="email-icon"
+              class="footer__form__contact_email-img"
+            />
+            <p>Email:antnchrks@gmail.com</p>
+          </div>
+          <h4 class="footer__form__contact_subtitle">On social media</h4>
+          <div class="footer__form__contact_social">
+            <div class="footer__form__contact_social_element">
+              <a href="https://instagram.com/cherkasant" target="_blank">
+                <img src="/teachmeskills/hm5/img/instagram.png" alt="instagram"
+              /></a>
+            </div>
+            <div class="footer__form__contact_social_element">
+              <a href="https://www.linkedin.com/feed/" target="_blank"
+                ><img src="/teachmeskills/hm5/img/linkedin.png" alt="linkedin"
+              /></a>
+            </div>
+            <div class="footer__form__contact_social_element">
+              <a href="https://twitter.com/home" target="_blank"
+                ><img src="/teachmeskills/hm5/img/twitter.png" alt="twitter"
+              /></a>
+            </div>
+            <div class="footer__form__contact_social_element">
+              <a href="https://vk.com/im" target="_blank"
+                ><img src="/teachmeskills/hm5/img/vk.png" alt="vk"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
