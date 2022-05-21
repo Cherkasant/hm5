@@ -37,7 +37,7 @@ body {
 }
 .main__content__logo {
   width: 360px;
-  min-height: 240px;
+  min-height: 260px;
   max-height: fit-content;
   height: 240px;
   border-radius: 50%;
